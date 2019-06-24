@@ -1,0 +1,15 @@
+#results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  .no-results-alert {
+    width: 100%;
+  }
+  .movie-wrapper {
+    width: 25%;
+    img {
+      max-width: 100%;
+    }
+  }
+}

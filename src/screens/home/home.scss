@@ -1,0 +1,29 @@
+.movie-list {
+  padding: 20px;
+  .movie-title {
+    margin: 0 20px 20px;
+  }
+}
+
+.movie-wrapper {
+  padding: 5px;
+  .movie-inner {
+    padding: 10px;
+    border: 1px solid #efefef;
+    img {
+      max-width: 100%;
+    }
+    .movie-name {
+      display: flex;
+      padding: 10px 0;
+      justify-content: space-between;
+      i {
+        font-size: 18px;
+      }
+    }
+    .movie-ratings {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

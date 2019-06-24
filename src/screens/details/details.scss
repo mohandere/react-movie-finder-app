@@ -1,0 +1,21 @@
+.movie--banner {
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+.movie--info {
+  padding: 50px 0;
+  .movie--card {
+    background: #efefef;
+    padding: 10px;
+    .movie--card-row {
+      padding: 10px;
+      display: flex;
+      strong {
+        min-width: 90px;
+        font-size: 1.2rem;
+        margin-right: 15px;
+      }
+    }
+  }
+}
