@@ -9,7 +9,7 @@
 /coverage
 
 # API keys
-# src/config/api-keys.js
+src/config/api-keys.js
 
 # production
 /build
